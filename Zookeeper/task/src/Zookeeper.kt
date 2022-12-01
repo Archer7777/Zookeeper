@@ -119,7 +119,7 @@ fun main() {
     // write yor code here
     print("Enter the number of the habitat you would like to view: ")
     while (true) {
-        var input = readln()
+        val input = readln()
         if (input == "exit") {
             println("See you later!")
             break
